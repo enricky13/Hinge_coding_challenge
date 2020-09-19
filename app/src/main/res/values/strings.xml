@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Hinge_Coding_Challenge</string>
+    <string name="total_count_tv_string">Total: %1$d</string>
+    <string name="reset_bt_string">RESET</string>
+    <string name="current_count_tv_string">%1$d people</string>
+    <string name="subtract_bt_string">-</string>
+    <string name="add_customer_bt_string">+</string>
+</resources>
