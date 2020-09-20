@@ -64,13 +64,12 @@ class MainActivity : AppCompatActivity(), MainContract.View {
 
     override fun onPause() {
         super.onPause()
-        val bundle = Bundle()
-        super.onSaveInstanceState(bundle)
         presenter?.saveCustomerData(sharedPrefManager)
     }
 
     override fun onDestroy() {
         super.onDestroy()
         presenter?.onDestroy()
+        presenter = null
     }
 }
